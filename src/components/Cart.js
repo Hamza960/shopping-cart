@@ -17,7 +17,7 @@ export default function Cart(props){
                         <button onClick={() => Add(item)} className="add">+</button>
                         <button onClick={() => Remove(item)} className="remove">-</button>
                     </div>
-                    <div className="col-md-3 price">
+                    <div className="col-md-3 price mt-2">
                         {item.qty} X ₹{item.price.toFixed(2)}
                     </div>
                     <hr className="mt-3" />

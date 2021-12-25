@@ -38,42 +38,42 @@ header{
    
 }
 
-.cart:hover, .add:hover, .remove:hover{
+.cart:hover{
     background-color: aqua;
     transition: 0.5s;
    
 }
 
 .add{
-    background-color: white;
-    border-radius: 20px;
-    padding : 5px 15px;
-    border: 1px solid aqua;
-    width: 100%;
-    
+    background-color: coral;
+    border-radius: 10px;
+    padding : 5px 20px;
+    border: 1px solid coral;
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-    justify-content: baseline;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
 }
 
 .remove{
-    background-color: white;
-    border-radius: 20px;
-    padding : 5px 15px;
-    border: 1px solid aqua;
-    width: 100%;
-    
+    background-color: coral;
+    border-radius: 10px;
+    padding : 5px 20px;
+    border: 1px solid coral;
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-    justify-content: baseline;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
 }
 
 .price{
-    background-color: aqua;
-    padding: 5px;
+    background-color: cornsilk;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 20px;
-    text-align: center;
-    width: 100%;
-    border: 1px solid aqua;
     
 }
 
@@ -96,27 +96,3 @@ header{
     font-size: 20px;
 }
 
-.title{
-    font-family: 'Montserrat', sans-serif; 
-}
-
-#aside{
-    margin-top: 120px;
-}
-
-@media(max-width: 798px){
-    .price-outer{
-       padding: 0px !important;
-        
-        
-    }
-
-    .cart{
-    
-    position: relative;
-    margin-top: 20px;
-    
-   
-   
-}
-}

@@ -11,7 +11,7 @@ export default function Home(props){
             <div className = "row">
                 
                 {products.map((product) => (
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-12">
                         <div className="card mt-4">
                     <Product key = {product.id} product = {product} Add = {Add}/>
                     </div>

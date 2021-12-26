@@ -15,18 +15,18 @@ export default function Cart(props){
                 <div key = {item.id} className="row">
                     <div className="col-md-12">{item.name}</div>
                     
-                    <div className="col-md-6 mt-4">
+                    <div className="col-md-6 col-sm-12 col-6 mt-4">
                         <button onClick={() => Add(item)} className="add">Add</button>
                     </div>
-                    <div className="col-md-6 mt-4">
+                    <div className="col-md-6 col-sm-12 col-6 mt-4">
                         <button onClick={() => Remove(item)} className="remove">Remove</button>
                     </div>
-                    <div className="col-md-6 mt-4">
+                    <div className="col-md-6 col-sm-12 col-6 mt-4">
                     <button className=" price">
                          ₹{item.price.toFixed(2)}
                     </button>
                     </div>
-                    <div className="col-md-6 mt-4">
+                    <div className="col-md-6 col-sm-12 col-6 mt-4">
                     <button className=" price">Quantity: {item.qty}</button>
                     </div>
                     <hr className="mt-4" />
